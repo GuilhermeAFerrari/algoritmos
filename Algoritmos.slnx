@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="FuncaoSomaRecursiva/FuncaoRecursiva.csproj" Id="27c47ee4-eb32-4790-ae1c-36abe95dce71" />
   <Project Path="OrdenacaoPorSelecao/OrdenacaoPorSelecao.csproj" Id="a65aad1a-a81f-4e85-8505-5be437c0249a" />
   <Project Path="PesquisaBinaria/PesquisaBinaria.csproj" />
 </Solution>
