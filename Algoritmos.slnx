@@ -1,6 +1,8 @@
 <Solution>
+  <Project Path="Dijkstra/Dijkstra.csproj" Id="8037ad57-33d8-4249-b791-dfdd083c4664" />
   <Project Path="FuncaoSomaRecursiva/FuncaoRecursiva.csproj" Id="27c47ee4-eb32-4790-ae1c-36abe95dce71" />
   <Project Path="MergeSort/MergeSort.csproj" Id="923b60e6-bc56-4aac-88e4-cb1efc86c5af" />
   <Project Path="OrdenacaoPorSelecao/OrdenacaoPorSelecao.csproj" Id="a65aad1a-a81f-4e85-8505-5be437c0249a" />
   <Project Path="PesquisaBinaria/PesquisaBinaria.csproj" />
+  <Project Path="PesquisaEmLargura/PesquisaEmLargura.csproj" Id="04b42c9b-0f48-4975-865d-0ebe773fe451" />
 </Solution>
