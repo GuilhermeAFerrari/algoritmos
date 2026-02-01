@@ -2,8 +2,11 @@
 
 grafo.AddAresta(0, 1, 1);
 grafo.AddAresta(0, 2, 10);
-grafo.AddAresta(1, 3, 1);
+grafo.AddAresta(1, 3, 4);
+grafo.AddAresta(1, 3, 2);
+grafo.AddAresta(1, 4, 1);
 grafo.AddAresta(2, 3, 1);
+grafo.AddAresta(3, 4, 4);
 grafo.AddAresta(3, 4, 1);
 
 var caminhoDijkstra = grafo.MenorCaminhoDijkstra(0, 4);
