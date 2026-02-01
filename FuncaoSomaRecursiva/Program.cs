@@ -1,21 +1,21 @@
 ﻿
 int[] meuArray = [20, 14, 15, 1, 6, 2];
 
-var resultadoSoma = SomarRerusivamente(meuArray, 0);
+var resultadoSoma = SomarRecursivamente(meuArray, 0);
 Console.WriteLine($"Resultado somar recursivamente: {resultadoSoma}");
 
 var resultadoContador = ContarRecursivamente(meuArray, 0);
 Console.WriteLine($"Resultado contar recursivamente: {resultadoContador}");
 
 var resultadoValorMaisAlto = ValorMaisAltoRecursivamente(meuArray, 0);
-Console.WriteLine($"Resultado contar recursivamente: {resultadoValorMaisAlto}");
+Console.WriteLine($"Resultado valor mais alto recursivamente: {resultadoValorMaisAlto}");
 
-static int SomarRerusivamente(int[] array, int indice)
+static int SomarRecursivamente(int[] array, int indice)
 {
     if (indice >= array.Length)
         return 0;
 
-    return array[indice] + SomarRerusivamente(array, indice + 1);
+    return array[indice] + SomarRecursivamente(array, indice + 1);
 }
 
 static int ContarRecursivamente(int[] array, int indice)
